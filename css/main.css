@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+  font-family: georgia;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+h1 {
+  font-family: Sigmar One;
+  color: #cc1465;
+  font-size: 3em;
+}
+
+header {
+  background-color: #ffe500;
+  padding: .3rem;
+  text-align: center;
+
+}
+
+h2 {
+  font-family: Sigmar One;
+  color: #cc1465;
+  text-align: left;
+  font-size: 2em;
+}
+
+footer {
+  background-color: #ffe500;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: #b2a212;
+  padding: .5rem;
+  border-radius: .3rem;
+
+}
+
+body {
+  margin: 0;
+
+}
