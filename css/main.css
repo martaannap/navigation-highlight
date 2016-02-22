@@ -11,6 +11,7 @@ h1 {
   font-family: Sigmar One;
   color: #cc1465;
   font-size: 3em;
+  margin: 0;
 }
 
 header {
@@ -24,11 +25,14 @@ h2 {
   font-family: Sigmar One;
   color: #cc1465;
   text-align: left;
-  font-size: 2em;
+  font-size: 1.875rem;
 }
 
 footer {
   background-color: #ffe500;
+  text-align: center;
+  padding: .125rem;
+  font-size: .75rem;
 }
 
 nav ul {
@@ -45,10 +49,20 @@ a {
   background-color: #b2a212;
   padding: .5rem;
   border-radius: .3rem;
+  font-size: 1.125rem;
 
+}
+
+a:hover {
+  background-color: #cc1465;
 }
 
 body {
   margin: 0;
+}
 
+main {
+  padding: .5em;
+  line-height: 1.75;
+  font-size: 1.125rem
 }
