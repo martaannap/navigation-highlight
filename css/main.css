@@ -66,3 +66,7 @@ main {
   line-height: 1.75;
   font-size: 1.125rem
 }
+
+nav .current {
+  background-color: #b20953;
+}
